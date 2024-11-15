@@ -45,6 +45,7 @@ function Fields() {
                             <p className='text-gray-500 pe-2'>{item.age}</p>
                         </div>
                         <h3>{item.email}</h3>
+                        <p>{item.phone}</p>
                     </div>
                 );
             }
