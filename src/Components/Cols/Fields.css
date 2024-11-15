@@ -1,0 +1,20 @@
+/* Custom scrollbar styles */
+.scrollable-container::-webkit-scrollbar {
+    width: 6px; /* Set width of the scrollbar */
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background: transparent; /* Transparent background for the track */
+    border-radius: 10px; /* Border radius for the track */
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: gray; /* Gray color for the thumb */
+    border-radius: 10px; /* Border radius for the thumb */
+    border: 2px solid transparent; /* Optional: to create a subtle border effect around the thumb */
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: darkgray; /* Darker shade on hover */
+  }
+  

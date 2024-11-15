@@ -1,4 +1,15 @@
-export const listData = [
+interface Item {
+  id: number;
+  title: string;
+  name: string;
+  age: number;
+  email: string;
+  phone: string;  // Change this to string for phone numbers
+  category: string;
+}
+
+// Defining listData as an array of Item
+export const listData: Item[] = [
   {
     id: 1,
     title: 'Mr',
